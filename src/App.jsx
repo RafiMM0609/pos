@@ -36,8 +36,19 @@
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+<div class="flex space-x-4 mt-2">
+  <div class="flex-none me-8 font-extrabold">
+    PHOTO
+  </div>
+  <div class="flex-none w-14 h-14 font-extrabold">
+    Home
+  </div>
+  <div class="flex-none w-14 h-14 font-extrabold">
+    Login
+  </div>
+  <div class="flex-none w-14 h-14 font-extrabold">
+    Logout
+  </div>
+</div>
   )
 }
